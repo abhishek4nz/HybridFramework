@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="running the first test">
-      <change afterPath="$PROJECT_DIR$/Log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j-application.log" afterDir="false" />
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added logger objects correctly">
+      <change afterPath="$PROJECT_DIR$/Configuration/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/Readconfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_LoginTest_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +145,22 @@
       <option name="project" value="LOCAL" />
       <updated>1677669355473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added logger objects correctly">
+      <created>1677755095611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677755095611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="framework setup" />
     <MESSAGE value="running the first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="running the first test" />
+    <MESSAGE value="Added logger objects correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logger objects correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
