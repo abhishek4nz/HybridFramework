@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added logger objects correctly">
-      <change afterPath="$PROJECT_DIR$/Configuration/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/Readconfig.java" afterDir="false" />
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added Properties and Read config file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677755095611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Properties and Read config file.">
+      <created>1678706214502</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678706214502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,7 +166,8 @@
     <MESSAGE value="framework setup" />
     <MESSAGE value="running the first test" />
     <MESSAGE value="Added logger objects correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logger objects correctly" />
+    <MESSAGE value="Added Properties and Read config file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Properties and Read config file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
