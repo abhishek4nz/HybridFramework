@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends BaseClass {
 
 //    WebDriver ldriver;          //CREATING A LOCAL WEBDROVER OBJECT
-    //CREATE A CONSTRUCTOR TO BE CALLED FROM TEST CASE CLASS
+    // CONSTRUCTOR TO BE CALLED FROM TEST CASE CLASS
 //    DRIVER IS INHERITED FROM THE BASE CLASS
     public LoginPage(WebDriver driver) {
 

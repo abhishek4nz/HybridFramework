@@ -1,15 +1,17 @@
 package com.hybrid.utilities;
 
+import com.hybrid.testCases.BaseClass;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Readconfig {
+public class Readconfig  {
 
     //CREATE A PROPERTIES OBJECT TO USE THE PROPERTIES FILE
-    Properties pro;
+    Properties property;
 
     //CREATE A CONSTRUCTOR TO READ AND LOAD THE DATA FROM THE PROPERTIES FILE
     public Readconfig() {
@@ -20,9 +22,10 @@ public class Readconfig {
         try{
             //READ THE PROPERTIES FILE FROM PATH
             FileInputStream fis = new FileInputStream(src);
-            pro = new Properties();
+            //INITIALIZE PROPERTY OBJECT
+            property = new Properties();
             //LOAD THE PROPERTIES
-            pro.load(fis);
+            property.load(fis);
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -33,12 +36,12 @@ public class Readconfig {
     //CREATE METHODS TO FETCH EACH VARIABLE FROM PROPERTIES FILE
     public String getURL()  {
         //FETCH AND RETURN THE VALUE OF THE VARIABLE IN PROPERTIES FILE
-        return pro.getProperty("baseURL");
+        return property.getProperty("baseURL");
     }
     public String getUserName() {
-        return pro.getProperty("username");
+        return property.getProperty("username");
     }
     public String getPassword() {
-        return pro.getProperty("password");
+        return property.getProperty("password");
     }
 }
