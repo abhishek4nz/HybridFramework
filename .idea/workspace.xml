@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added Properties and Read config file.">
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Extended BaseClass with page object">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG./home/innofied/Documents/Selenium/HybridFramework/testng.xml">
-    <configuration name="TC_LoginTest_001.loginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_LoginTest_001.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HybridFramework" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678715521703</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Extended BaseClass with page object">
+      <created>1678885536559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678885536559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,7 +183,8 @@
     <MESSAGE value="running the first test" />
     <MESSAGE value="Added logger objects correctly" />
     <MESSAGE value="Added Properties and Read config file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Properties and Read config file." />
+    <MESSAGE value="Extended BaseClass with page object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extended BaseClass with page object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

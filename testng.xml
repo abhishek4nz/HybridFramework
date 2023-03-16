@@ -4,11 +4,8 @@
     <test verbose="2" preserve-order="true" name="/home/innofied/Documents/Selenium/HybridFramework">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.hybrid.testCases.TC_LoginTest_001">
-<!--                <methods>
-                    <include name="loginTest"/>
-                </methods>  -->
-            </class>
+            <class name="com.hybrid.testCases.TC_LoginTest_001"/>
+            <class name="com.hybrid.testCases.TC_Logout"/>
         </classes>
     </test>
 </suite>
