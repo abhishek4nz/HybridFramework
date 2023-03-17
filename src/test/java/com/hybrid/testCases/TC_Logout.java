@@ -12,11 +12,9 @@ public class TC_Logout extends BaseClass{
         Logout lt = new Logout(driver);
 
         //CLICK ON LOGOUT BUTTON
+        lt.setMarquee();        //GET THE MARQUEE TEXT
         lt.setLogout();
 
-        System.out.println(driver.switchTo().alert().getText());
-        //ACCEPT THE BROWSER ALERT
-        driver.switchTo().alert().accept();
 
     }
 }

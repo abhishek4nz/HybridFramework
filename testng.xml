@@ -5,6 +5,7 @@
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.hybrid.testCases.TC_LoginTest_001"/>
+            <class name="com.hybrid.testCases.TC_AddCustomer"/>
             <class name="com.hybrid.testCases.TC_Logout"/>
         </classes>
     </test>

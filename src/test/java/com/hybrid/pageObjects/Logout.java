@@ -16,11 +16,23 @@ public class Logout extends BaseClass {
         PageFactory.initElements(driver, this);
     }
 
+    @FindBy(className = "heading3") @CacheLookup
+    WebElement marquee;
+
+    public void setMarquee()    {
+        System.out.println(marquee.getText());
+    }
+
+
     @FindBy(linkText = "Log out") @CacheLookup
     WebElement logout;
 
+
     public void setLogout()    {
         logout.click();
+        System.out.println(driver.switchTo().alert().getText());
+        //ACCEPT THE BROWSER ALERT
+        driver.switchTo().alert().accept();
     }
 
 }
