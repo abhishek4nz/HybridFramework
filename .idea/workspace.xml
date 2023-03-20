@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added logout test case">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/AddCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_AddCustomer.java" afterDir="false" />
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added data provider">
+      <change afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/pageObjects/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678964384200</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added data provider">
+      <created>1679051495583</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679051495583</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +210,8 @@
     <MESSAGE value="Added Properties and Read config file." />
     <MESSAGE value="Extended BaseClass with page object" />
     <MESSAGE value="Added logout test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logout test case" />
+    <MESSAGE value="Added data provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added data provider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

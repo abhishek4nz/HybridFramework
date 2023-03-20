@@ -1,5 +1,7 @@
 package com.hybrid.testCases;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.hybrid.utilities.Readconfig;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
@@ -17,6 +19,9 @@ public class BaseClass {
     public String baseURL = new Readconfig().getURL();
     public String username = new Readconfig().getUserName();
     public String password = new Readconfig().getPassword();
+
+//     ExtentReports extent;       //SPECIFY LOCATION OF THE REPORT
+    public ExtentTest test;            //WHAT DETAILS SHOULD BE POPULATED IN THE REPORT
 
     @DataProvider(name = "data")
     public String[][] getLoginData() {
