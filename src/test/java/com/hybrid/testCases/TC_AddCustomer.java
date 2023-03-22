@@ -20,5 +20,7 @@ public class TC_AddCustomer extends BaseClass{
         add.setEmail(email);
         add.setPassword(password);
         add.submitBtn();
+
+        driver.switchTo().alert().accept();
     }
 }
