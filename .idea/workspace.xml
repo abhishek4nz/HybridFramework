@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added listener and tried to add extent report">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/ExtenReport.java" afterDir="false" />
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added alert">
+      <change afterPath="$PROJECT_DIR$/customer.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/ExcelData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_AddCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/testCases/TC_AddCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +51,29 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/innofied/Documents/Selenium/HybridFramework&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./home/innofied/Documents/Selenium/HybridFramework/testng.xml">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ExcelData">
+    <configuration name="ExcelData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hybrid.utilities.ExcelData" />
+      <module name="HybridFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hybrid.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC_LoginTest_001.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HybridFramework" />
       <extension name="coverage">
@@ -102,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelData" />
         <item itemvalue="TestNG./home/innofied/Documents/Selenium/HybridFramework/testng.xml" />
         <item itemvalue="TestNG.TC_LoginTest_001.loginTest" />
       </list>
@@ -193,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679318755601</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added alert">
+      <created>1679491156366</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679491156366</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +245,8 @@
     <MESSAGE value="Added logout test case" />
     <MESSAGE value="Added data provider" />
     <MESSAGE value="Added listener and tried to add extent report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added listener and tried to add extent report" />
+    <MESSAGE value="Added alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added alert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

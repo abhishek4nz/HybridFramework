@@ -22,5 +22,15 @@ public class TC_AddCustomer extends BaseClass{
         add.submitBtn();
 
         driver.switchTo().alert().accept();
+        driver.switchTo().defaultContent();
+    }
+
+    @Test(dataProvider = "excel")
+    void addCustomer(String name, String address)  {
+
+        AddCustomer add2 = new AddCustomer(driver);
+        add2.setName(name);
+        add2.setAddress(address);
+
     }
 }
