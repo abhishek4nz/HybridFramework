@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Added alert">
+    <list default="true" id="1283aacf-fefe-4e4a-9970-0c85da6f3520" name="Changes" comment="Reading data from Excel sheet">
       <change afterPath="$PROJECT_DIR$/customer.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/hybrid/utilities/ExcelData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679491156366</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Reading data from Excel sheet">
+      <created>1679663001466</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679663001466</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +253,8 @@
     <MESSAGE value="Added data provider" />
     <MESSAGE value="Added listener and tried to add extent report" />
     <MESSAGE value="Added alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added alert" />
+    <MESSAGE value="Reading data from Excel sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading data from Excel sheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
